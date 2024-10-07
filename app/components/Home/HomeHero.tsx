@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeHero = () => {
   return (
-    <div  className="flex justify-center h-[832px] bg-cover bg-center "
+    <div  className="flex justify-center h-screen bg-cover bg-center "
     style={{
       backgroundImage: 'url(/images/back1.png)', // Update the path as needed
     }}
