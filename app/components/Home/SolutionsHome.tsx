@@ -86,9 +86,9 @@ const SolutionsHome = () => {
     : solutions.filter(solution => solution.category === selectedCategory);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 mt-12">
+    <div id="solutions" className="max-w-7xl mx-auto px-4 mt-12">
       {/* Section Title */}
-      <h2 className="text-[36px] sm:text-[48px] md:text-[57px] mb-8">Solutions</h2>
+      <h2  className="text-[36px] sm:text-[48px] md:text-[57px] mb-8">Solutions</h2>
 
       {/* Filter Buttons with padding and responsive font size */}
       <div className="mb-8 px-4 sm:px-0 flex overflow-x-auto space-x-4">
