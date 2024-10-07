@@ -60,20 +60,20 @@ const AboutSustainable: React.FC = () => {
   return (
     <div className="bg-black min-h-[600vh]"> {/* Adjust height for scrolling */}
       {/* Sticky container */}
-      <div className="sticky top-0 h-screen z-10 flex items-center max-w-7xl mx-auto">
+      <div className="sticky top-0 h-screen z-10 flex flex-col md:flex-row items-center max-w-7xl mx-auto">
         {/* Left Side - Dynamic Title */}
-        <div className="w-1/2 text-white px-8 py-12">
-          <h2 className={`text-[36px] sm:text-[48px] md:text-[57px] transition-opacity duration-300 ${titleFadeIn ? 'opacity-100' : 'opacity-0'}`}>
+        <div className="w-full md:w-1/2 text-white px-8 py-12 h-[50vh] md:h-auto"> {/* Set height for mobile */}
+          <h2 className={`text-[28px] sm:text-[36px] md:text-[48px] lg:text-[57px] transition-opacity duration-300 ${titleFadeIn ? 'opacity-100' : 'opacity-0'}`}>
             {titles[currentFrameIndex]} {/* Dynamically change the title */}
           </h2>
         </div>
 
         {/* Right Side - Dynamically change images */}
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="w-full md:w-1/2 flex justify-center items-center h-[50vh] md:h-auto"> {/* Set height for mobile */}
           <img
             src={`/images/${frames[currentFrameIndex]}`} // Show only the current frame image
             alt={`Sustainable Frame ${currentFrameIndex + 1}`}
-            className={`w-[400px] h-[400px] object-cover rounded-lg transition-opacity duration-300 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}
+            className={`w-[250px] sm:w-[300px] md:w-[400px] h-auto object-cover rounded-lg transition-opacity duration-300 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}
           />
         </div>
       </div>
