@@ -12,7 +12,8 @@ const services = [
     title: 'Find opportunities',
     description: 'We offer full-day workshops to guide your workforce in spotting, assessing, and prioritizing GenAI opportunities for your operation and your services.',
     imageUrl: '/images/serv2.png',
-    className: 'bg-custom-grey', // Grey background for the second card
+    // Update the className to use the gradient background
+    className: 'bg-gradient-to-l from-[#d6d7d9] to-[#e4e5e7]', // Gradient background for the second card
   },
   {
     title: 'Implement solutions',
