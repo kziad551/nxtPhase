@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex pb-5 md:pb-0 justify-center md:block">
           <Link href="/">
-          <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
+          <img src="/images/logofooter.png" alt="Logo" className="h-8 w-auto" />
           </Link>
         </div>
 
