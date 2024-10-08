@@ -25,8 +25,8 @@ const Footer = () => {
           <ul className="space-y-1 text-xl md:text-2xl">
             <li><a href="/" className="leading-loose">Home</a></li>
             <li><a href="/about" className="leading-loose">About</a></li>
-            <li><a href="/solutions" className="leading-loose">Solutions</a></li>
-            <li><a href="" className="leading-loose">Book a Call</a></li>
+            <li><a href="/#solutions" className="leading-loose">Solutions</a></li>
+            <li><a href="/#bookaCall" className="leading-loose">Book a Call</a></li>
           </ul>
         </div>
       </div>

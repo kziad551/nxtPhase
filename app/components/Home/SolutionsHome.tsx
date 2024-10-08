@@ -92,16 +92,17 @@ const SolutionsHome = () => {
 
       {/* Filter Buttons with padding and responsive font size */}
       <div className="mb-8 px-4 sm:px-0 flex overflow-x-auto space-x-4">
-        {categories.map((category, index) => (
-          <button
-            key={index}
-            className={`px-7 py-1 md:px-6 md:py-2 rounded-full border ${selectedCategory === category ? 'bg-custom-green border border-custom-green text-white' : 'text-custom-green border border-custom-green'} text-sm sm:text-base`}
-            onClick={() => setSelectedCategory(category)}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+  {categories.map((category, index) => (
+    <button
+      key={index}
+      className={`px-7 py-2 md:px-6 md:py-2 rounded-full border ${selectedCategory === category ? 'bg-custom-green border border-custom-green text-white' : 'text-custom-green border border-custom-green'} text-sm sm:text-base whitespace-nowrap`}
+      onClick={() => setSelectedCategory(category)}
+    >
+      {category}
+    </button>
+  ))}
+</div>
+
 
       {/* Solutions Grid (for 'All') */}
       {selectedCategory === 'All' ? (
