@@ -135,7 +135,7 @@ const SolutionsHome = () => {
         // Full-width layout for other categories
         <div className="space-y-8">
           {filteredSolutions.map((solution, index) => (
-            <div key={index} className="flex flex-col md:flex-row p-6">
+            <div key={index} className="flex flex-col md:flex-row p-6 bg-white">
               {/* Image on the left */}
               <img
                 src={solution.imageUrl}
