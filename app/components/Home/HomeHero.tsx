@@ -1,4 +1,16 @@
+"use client"
 import React from 'react';
+
+const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  event.preventDefault();
+  const section = document.getElementById('bookaCall');
+  if (section) {
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+}
 
 const HomeHero = () => {
   return (
@@ -19,7 +31,7 @@ const HomeHero = () => {
           Built for Real Value
         </h2>
         <button className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full">
-          Book a Call
+          <a onClick={scrollToSection}>Book a Call</a>
         </button>
       </div>
     </div>
