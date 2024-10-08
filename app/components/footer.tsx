@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-black pb-8 px-4 pt-20 mt-10  bg-cover bg-center "  style={{
+    <footer className="text-black pb-8 px-4 pt-20 mt-10  bg-cover bg-center shadow-2xl "  style={{
       backgroundImage: 'url(/images/back1.png)', // Update the path as needed
     }}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -15,7 +15,7 @@ const Footer = () => {
             Email: <a href="mailto:Koen@nxtphase.ai" className=" text-xl md:text-2xl underline">Koen@nxtphase.ai</a>
           </div>
           <div className="mb-2 text-[24px] md:text-32px">
-            Phone: <a href="tel:+31 6 55454226" className="">+31 6 55454226</a>
+            Phone: <a href="tel:+31655454226" className="">+31 6 55454226</a>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Rights Reserved within the container */}
-      <div className="max-w-7xl mx-auto  mt-32 text-xl md:text-2xl">
+      <div className="max-w-7xl mx-auto  mt-16 md:mt-32 text-[16px] md:text-2xl">
         &copy; {new Date().getFullYear()} NXT Phase AI. All rights are reserved. 
       </div>
     </footer>
