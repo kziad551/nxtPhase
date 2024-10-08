@@ -3,12 +3,12 @@ import React from 'react';
 const AboutHero = () => {
   return (
     <div
-      className="flex justify-center h-screen bg-cover bg-center"
+      className="flex justify-center items-center h-screen bg-cover bg-center"
       style={{
         backgroundImage: 'url(/images/back1.png)', // Update the path as needed
       }}
     >
-      <div className="text-center  mt-60 md:mt-52 ">
+      <div className="text-center   ">
         {/* Set font size to 102px only on large screens and adjust for smaller screens */}
         <h2 className="text-[36px] md:text-[80px] lg:text-[102px] mb-5 md:mb-0 ">
           WE KEEP AI SIMPLE

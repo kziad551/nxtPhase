@@ -12,7 +12,7 @@ const CalendarHome: React.FC = () => {
 
        
       <iframe 
-        src="https://calendly.com/koen-nxtphase/30min?embed_domain=yourdomain.com&embed_type=Inline" 
+        src="https://calendly.com/koen-nxtphase/30min?embed_domain=yourdomain.com&embed_type=Inline?hide_gdpr_banner=1" 
         width="100%" 
         height="700px" 
         style={{ minWidth: '320px', height: '700px', }} 

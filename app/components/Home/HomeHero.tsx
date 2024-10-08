@@ -14,7 +14,7 @@ const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement>) => {
 
 const HomeHero = () => {
   return (
-    <div  className="flex justify-center h-screen bg-cover bg-center "
+    <div  className="flex justify-center items-center h-screen bg-cover bg-center "
     style={{
       backgroundImage: 'url(/images/back1.png)', // Update the path as needed
     }}
@@ -23,7 +23,7 @@ const HomeHero = () => {
   
      
      </div>
-      <div className="text-center mt-72 lg:mt-52">
+      <div className="text-center ">
         <h2 className="text-[36px] sm:text-[48px] md:text-[57px]  ">
           Pragmatic AI Solutions,
         </h2>

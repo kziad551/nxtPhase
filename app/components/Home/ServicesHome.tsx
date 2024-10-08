@@ -37,7 +37,7 @@ const ServicesHome = () => {
             <img
               src={service.imageUrl}
               alt={service.title}
-              className="w-full h-56 object-cover rounded-[20px]"
+              className="w-full h-[20rem] object-cover rounded-[20px]"
             />
           </div>
         ))}

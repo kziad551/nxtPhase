@@ -63,7 +63,7 @@ const AboutSustainable: React.FC = () => {
       <div className="sticky top-0 h-screen z-10 flex flex-col md:flex-row items-center max-w-7xl mx-auto">
         {/* Left Side - Dynamic Title */}
         <div className="w-full md:w-1/2 text-white px-8 py-12 h-[50vh] md:h-auto"> {/* Set height for mobile */}
-          <h2 className={`text-[28px] sm:text-[36px] md:text-[48px] lg:text-[57px] transition-opacity duration-300 ${titleFadeIn ? 'opacity-100' : 'opacity-0'}`}>
+          <h2 className={` pt-[100px] md:pt-0 text-center md:text-left text-[28px] sm:text-[36px] md:text-[48px] lg:text-[57px] transition-opacity duration-300 ${titleFadeIn ? 'opacity-100' : 'opacity-0'}`}>
             {titles[currentFrameIndex]} {/* Dynamically change the title */}
           </h2>
         </div>
