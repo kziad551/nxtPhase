@@ -115,7 +115,7 @@ const SolutionsHome = () => {
                 className="w-full object-cover mb-6"
               />
               <h3 className="text-28px mb-4">{solution.title}</h3>
-              <p className="text-base w-[70%] pb-8">{solution.description}</p>
+              <p className="text-base w-[100%] md:w-[70%] pb-8">{solution.description}</p>
               <p className="text-28px mb-4">Clients</p>
               {/* Two Images Below Clients */}
               <div className="flex space-x-4">
