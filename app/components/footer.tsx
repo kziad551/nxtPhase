@@ -2,13 +2,13 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-black pb-8 px-4 pt-20 mt-10  bg-cover bg-center shadow-2xl "  style={{
+    <footer className="text-black pb-8 px-4 pt-8 md:pt-20 mt-10  bg-cover bg-center shadow-2xl "  style={{
       backgroundImage: 'url(/images/back1.png)', // Update the path as needed
     }}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* First Column: Logo, Email, and Phone */}
         <div className="flex flex-col">
-          <div className=" mb-24">
+          <div className=" mb-12 md:mb-24">
           <img src="/images/logofooter.png" alt="Logo" className="h-12 md:h-18 w-auto" />
           </div>
           <div className="mb-2 text-[24px] md:text-32px">

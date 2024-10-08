@@ -85,9 +85,9 @@ const AboutTeam = () => {
               className="w-full object-cover rounded-t-lg"
             />
             {/* Attribute */}
-            <p className="text-gray-500 text-xs mt-4">{consultant.attribute}</p>
+            <p className="text-gray-500 text-xs mt-4 px-3">{consultant.attribute}</p>
             {/* Name and Email */}
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-2 px-3">
               <span className="text-[22px]">{consultant.name}</span>
               <span className="text-[16px]">{consultant.email}</span>
             </div>
@@ -109,9 +109,9 @@ const AboutTeam = () => {
               className="w-full object-cover rounded-t-lg"
             />
             {/* Attribute */}
-            <p className="text-gray-500 text-xs mt-4">{developer.attribute}</p>
+            <p className="text-gray-500 text-xs mt-4 px-3">{developer.attribute}</p>
             {/* Name and Email */}
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-2 px-3">
               <span className="text-[18px] md:text-[22px]">{developer.name}</span>
               <span className="text-[16px]">{developer.email}</span>
             </div>
