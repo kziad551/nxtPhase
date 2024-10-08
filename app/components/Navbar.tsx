@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement>) => {
+const scrollToSection = (event: React.MouseEvent<HTMLButtonElement>) => {
   event.preventDefault();
   const section = document.getElementById('bookaCall');
   if (section) {
@@ -62,8 +62,8 @@ const Navbar = () => {
         </ul>
 
         {/* Button */}
-        <button className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full hidden md:block">
-          <a onClick={scrollToSection}> Book a Call </a>
+        <button onClick={scrollToSection} className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full hidden md:block">
+          Book a Call
         </button>
       </div>
     </nav>

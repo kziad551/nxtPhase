@@ -1,3 +1,4 @@
+import CalendarHome from "./components/Home/CalendarHome";
 import HomeHero from "./components/Home/HomeHero";
 import ServicesHome from "./components/Home/ServicesHome";
 import SolutionsHome from "./components/Home/SolutionsHome";
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeHero/>
       <ServicesHome/>
       <SolutionsHome/>
+      <CalendarHome/>
     </div>
   );
 }
