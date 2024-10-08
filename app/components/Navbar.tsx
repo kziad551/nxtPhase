@@ -3,7 +3,16 @@
 import React from 'react';
 import Link from 'next/link';
 
-
+const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  event.preventDefault();
+  const section = document.getElementById('bookaCall');
+  if (section) {
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+};
 
 
 const Navbar = () => {
@@ -32,7 +41,7 @@ const Navbar = () => {
 
         {/* Button */}
         <button className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full hidden  md:block">
-          Book a Call
+          <a onClick={scrollToSection}> Book a Call </a>
         </button>
       </div>
     </nav>
