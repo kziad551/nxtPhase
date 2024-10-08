@@ -1,5 +1,7 @@
 "use client"; 
-import React, { useState } from 'react';
+import React from 'react';
+import './CalendarHome.css';
+
 
 
 const CalendarHome: React.FC = () => {
@@ -10,6 +12,16 @@ const CalendarHome: React.FC = () => {
       <h2 className="text-[28px] sm:text-[28px] md:text-[57px]">Interested in learning more?</h2>
       <h2 className="text-[20px] sm:text-[20px] md:text-4xl mb-8">Schedule time with our CEO below.</h2>
 
+       
+      <iframe 
+        src="https://calendly.com/koen-nxtphase/30min?embed_domain=yourdomain.com&embed_type=Inline" 
+        width="100%" 
+        height="700px" 
+        style={{ minWidth: '320px', height: '700px', }} 
+        title="Calendly Schedule"
+      />
+      
+  
      
     </div>
   );
