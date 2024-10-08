@@ -17,7 +17,9 @@ const Footer = () => {
         {/* First Column: Logo, Email, and Phone */}
         <div className="flex flex-col">
           <div className="mb-12 md:mb-24">
+          <Link href="/">
             <img src="/images/logofooter.png" alt="Logo" className="h-12 md:h-18 w-auto" />
+            </Link>
           </div>
           <div className="mb-2 text-[24px] md:text-32px">
             Email: <a href="mailto:Koen@nxtphase.ai" className="text-xl md:text-2xl underline">Koen@nxtphase.ai</a>
