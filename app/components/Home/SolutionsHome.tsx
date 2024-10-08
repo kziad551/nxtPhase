@@ -95,7 +95,7 @@ const SolutionsHome = () => {
   {categories.map((category, index) => (
     <button
       key={index}
-      className={`px-7 py-2 md:px-6 md:py-2 rounded-full border ${selectedCategory === category ? 'bg-custom-green border border-custom-green text-white' : 'text-custom-green border border-custom-green'} text-sm sm:text-base whitespace-nowrap`}
+      className={`px-7 py-2 md:px-6 md:py-2 rounded-full border ${selectedCategory === category ? 'bg-custom-green border border-custom-green text-white' : 'text-custom-green border border-custom-green'} text-sm sm:text-base whitespace-nowrap sm:whitespace-normal`}
       onClick={() => setSelectedCategory(category)}
     >
       {category}
