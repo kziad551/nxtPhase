@@ -30,7 +30,7 @@ const HomeHero = () => {
         <h2 className="text-[36px] sm:text-[48px] md:text-[57px] pb-8">
           Built for Real Value
         </h2>
-        <button className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full">
+        <button className="bg-custom-green text-[28px] sm:text-[36px] md:text-[40px] hover:bg-green-700 text-white py-2 px-6 rounded-full">
           <a onClick={scrollToSection}>Book a Call</a>
         </button>
       </div>

@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu */}
-        <ul className="flex justify-center space-x-12 text-base text-black font-medium bg-white py-4 px-4 rounded-[20px]">
+        <ul className="flex justify-center space-x-12 text-base md:text-2xl text-black  bg-white py-4 px-4 rounded-[20px]">
           <li>
             <Link href="/" className="">Home</Link>
           </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
         </ul>
 
         {/* Button */}
-        <button onClick={scrollToSection} className="bg-custom-green text-sm hover:bg-green-700 text-white py-3 px-6 rounded-full hidden md:block">
+        <button onClick={scrollToSection} className="bg-custom-green text-sm md:text-xl hover:bg-green-700 text-white py-3 px-6 rounded-full hidden md:block">
           Book a Call
         </button>
       </div>
