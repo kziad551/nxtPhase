@@ -29,7 +29,7 @@ const AboutPeople = () => {
 
   return (
     <div className='max-w-7xl mx-auto px-4 my-32'>
-      <h2 className='text-[28px] sm:text-[28px] md:text-[57px] mb-8 mt-32 md:w-[70%] leading-tight'>
+      <h2 className='text-[28px] sm:text-[28px] md:text-[57px] mb-8 mt-32 md:w-[70%] leading-tight text-black'>
         Meet The People who will be working on your project
       </h2>
 

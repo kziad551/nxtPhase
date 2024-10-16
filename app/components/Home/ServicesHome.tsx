@@ -26,11 +26,11 @@ const services = [
 const ServicesHome = () => {
   return (
     <div className="max-w-7xl mx-auto px-4  mt-12">
-      <h2 className="text-[36px] sm:text-[48px] md:text-[57px] mb-8">Services</h2>
+      <h2 className="text-[36px] sm:text-[48px] md:text-[57px] mb-8 text-black">Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {services.map((service, index) => (
           <div key={index} className={`border rounded-[20px] ${service.className}`}>
-            <div className="px-6 pt-6">
+            <div className="px-6 pt-6 text-black">
               <h3 className="text-28px mb-10">{service.title}</h3>
               <p className="text-base min-h-[100px]">{service.description}</p>
             </div>

@@ -88,7 +88,7 @@ const SolutionsHome = () => {
   return (
     <div id="solutions" className="max-w-7xl mx-auto px-4 mt-12">
       {/* Section Title */}
-      <h2  className="text-[36px] sm:text-[48px] md:text-[57px] mb-8">Solutions</h2>
+      <h2  className="text-[36px] sm:text-[48px] md:text-[57px] mb-8 text-black">Solutions</h2>
 
       {/* Filter Buttons with padding and responsive font size */}
       <div className="mb-8 px-4 sm:px-0 flex overflow-x-auto space-x-4">
@@ -106,7 +106,7 @@ const SolutionsHome = () => {
 
       {/* Solutions Grid (for 'All') */}
       {selectedCategory === 'All' ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-black">
           {filteredSolutions.map((solution, index) => (
             <div key={index} className="border rounded-[20px] bg-white p-6">
               <img
@@ -135,7 +135,7 @@ const SolutionsHome = () => {
         // Full-width layout for other categories
         <div className="space-y-8">
           {filteredSolutions.map((solution, index) => (
-            <div key={index} className="flex flex-col md:flex-row p-6 bg-white">
+            <div key={index} className="flex flex-col md:flex-row p-6 bg-white text-black">
               {/* Image on the left */}
               <img
                 src={solution.imageUrl}

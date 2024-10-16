@@ -3,7 +3,7 @@ import React from 'react';
 const AboutHero = () => {
   return (
     <div
-      className="flex justify-center items-center h-screen bg-cover bg-center"
+      className="flex justify-center items-center h-screen bg-cover bg-center text-black"
       style={{
         backgroundImage: 'url(/images/back1.png)', // Update the path as needed
       }}
